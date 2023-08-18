@@ -1,5 +1,6 @@
 import React from 'react'
 import Calculator from '../assets/calculator.png'
+import SkyTrax from '../assets/SkyTrax.png'
 
 const Work = () => {
   return (
@@ -17,15 +18,33 @@ const Work = () => {
                 <div style={{backgroundImage: `url(${Calculator})`}} className='shadow-lg shadow-black group container rounded flex justify-center items-center mx-auto content-div'>
                     
                     {/*Hover Effect*/}
-                    <div className='opacity-0 group-hover:opacity-100'>
+                    <div className='opacity-0 group-hover:opacity-100 flex flex-col items-center'>
                         <span className='text-2xl font-bold text-white'>
-                            React Calculator App
+                            React Calculator
                         </span>
                         <div className='pt-8 text-center'>
                             <a href="/">
                                 <button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg'>Demo</button>
                             </a>
+                            <a href="https://github.com/sethhudson99/calculator.git">
+                                <button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg'>Code</button>
+                            </a> 
+                        </div>   
+                    </div>
+                </div>
+
+                <div style={{backgroundImage: `url(${SkyTrax})`}} className='shadow-lg shadow-black group container rounded flex justify-center items-center mx-auto content-div'>
+                    
+                    {/*Hover Effect*/}
+                    <div className='opacity-0 group-hover:opacity-100 flex flex-col items-center'>
+                        <span className='text-2xl font-bold text-white'>
+                            React Website
+                        </span>
+                        <div className='pt-8 text-center'>
                             <a href="/">
+                                <button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg'>Demo</button>
+                            </a>
+                            <a href="https://github.com/sethhudson99/SkyTrax.git">
                                 <button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg'>Code</button>
                             </a> 
                         </div>   

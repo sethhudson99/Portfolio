@@ -20,6 +20,7 @@
     background-size: cover;
     background-position: center;
     height: 250px;
+    width: 250px;
 }
 
 .content-div:hover {
