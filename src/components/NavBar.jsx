@@ -78,6 +78,9 @@ const NavBar = () => {
                     Contact
                     </Link>
                 </li>
+                <li className='py-6 text-4xl'>
+                    <a href="https://drive.google.com/file/d/1PqAL92IbuN22DR2qHo6lRwuFXrqTgRnq/view?usp=sharing">Resume</a>
+                </li>
         </ul> 
 
         {/*social icons*/}
@@ -95,7 +98,7 @@ const NavBar = () => {
                     
                 </li>
                 <li className='w-[160px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-500 bg-blue-700'>
-                    <a className='flex justify-between items-center w-full text-gray-300' href="/">
+                    <a className='flex justify-between items-center w-full text-gray-300' href="https://drive.google.com/file/d/1PqAL92IbuN22DR2qHo6lRwuFXrqTgRnq/view?usp=sharing">
                         Resume <BsFillPersonLinesFill size={30} />
                     </a>
                 </li>
