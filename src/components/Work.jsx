@@ -1,6 +1,7 @@
 import React from 'react'
 import Calculator from '../assets/calculator.png'
 import SkyTrax from '../assets/SkyTrax.png'
+import Weather from '../assets/weather.png'
 
 const Work = () => {
   return (
@@ -45,6 +46,24 @@ const Work = () => {
                                 <button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg'>Demo</button>
                             </a>
                             <a href="https://github.com/sethhudson99/SkyTrax.git">
+                                <button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg'>Code</button>
+                            </a> 
+                        </div>   
+                    </div>
+                </div>
+
+                <div style={{backgroundImage: `url(${Weather})`}} className='shadow-lg shadow-black group container rounded flex justify-center items-center mx-auto content-div'>
+                    
+                    {/*Hover Effect*/}
+                    <div className='opacity-0 group-hover:opacity-100 flex flex-col items-center'>
+                        <span className='text-2xl font-bold text-white'>
+                            React Weather App
+                        </span>
+                        <div className='pt-8 text-center'>
+                            <a href="https://sethhudson99.github.io/weather-app-react/">
+                                <button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg'>Demo</button>
+                            </a>
+                            <a href="https://github.com/sethhudson99/weather-app-react">
                                 <button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg'>Code</button>
                             </a> 
                         </div>   

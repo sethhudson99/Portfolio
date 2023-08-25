@@ -91,12 +91,6 @@ const NavBar = () => {
                         GitHub <FaGithub size={30} />
                     </a>
                 </li>
-                <li className='w-[160px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-500 bg-lime-700'>
-                    <Link className='flex justify-between items-center w-full text-gray-300' to="contact" smooth={true} duration={500}>
-                    Contact <HiOutlineMail size={30} />
-                    </Link>
-                    
-                </li>
                 <li className='w-[160px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-500 bg-blue-700'>
                     <a className='flex justify-between items-center w-full text-gray-300' href="https://drive.google.com/file/d/1PqAL92IbuN22DR2qHo6lRwuFXrqTgRnq/view?usp=sharing">
                         Resume <BsFillPersonLinesFill size={30} />
