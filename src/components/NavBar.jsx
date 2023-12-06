@@ -79,7 +79,7 @@ const NavBar = () => {
                     </Link>
                 </li>
                 <li className='py-6 text-4xl'>
-                    <a href="https://drive.google.com/file/d/1PqAL92IbuN22DR2qHo6lRwuFXrqTgRnq/view?usp=sharing">Resume</a>
+                    <a href="https://docs.google.com/document/d/1oD5QzsHv13qNOKNc-aQQyV-2JaXZx_jCQwQa_eDbC2E/edit?usp=drive_link">Resume</a>
                 </li>
         </ul> 
 
